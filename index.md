@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Velkommen til min Github
+title: Work in progress!
 description: Her finner du mine prosjekter!
 ---
 
