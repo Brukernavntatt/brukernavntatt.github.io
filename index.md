@@ -1,4 +1,8 @@
 ---
+layout: default
+title: Velkommen til min Github
+description: Her finner du mine prosjekter!
+---
 
 ## Prosjekter
 
