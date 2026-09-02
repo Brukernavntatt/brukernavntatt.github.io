@@ -1,75 +1,46 @@
 <style>
-  /* 1. DEFINE VICHY PALETTE */
-  :root {
-    --primary-teal: #05AD98;
-    --bg-outside: #BBBFBF;
-    --muted-gray: #878787;
-    --card-white: #FFFFFF;
-    --text-dark: #1F2328;
+  /* 1. OVERSTYR CAYMAN BANNERET ØVERST */
+  .page-header {
+    background-color: #05AD98 !important; /* Din grønnfarge */
+    background-image: none !important;    /* Fjerner Caymans standard-gradient */
+    color: #FFFFFF !important;
+  }
+  .page-header h1, .project-name, .project-tagline {
+    color: #FFFFFF !important;
   }
 
+  /* 2. OVERSTYR SIDEBAKGRUNNEN (LYS GRÅ) */
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg-outside) !important;
-    color: var(--text-dark) !important;
+    background-color: #BBBFBF !important; /* Din lyse gråfarge */
   }
 
-  /* 2. TOP BANNER (Cayman Style) */
-  .custom-header {
-    background-color: var(--primary-teal);
-    color: var(--card-white);
-    padding: 60px 20px;
-    text-align: center;
-  }
-  .custom-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: var(--card-white) !important;
-  }
-  .custom-header p {
-    margin-top: 8px;
-    font-size: 1.1em;
-    opacity: 0.95;
-    color: var(--card-white) !important;
-  }
-
-  /* 3. MAIN CONTENT CARD */
+  /* 3. HOVEDBOKSEN FOR TEKST (HVIT MED SKYGGE) */
   .main-content {
-    max-width: 850px;
-    margin: -30px auto 50px;
-    background-color: var(--card-white);
-    padding: 40px;
-    border-radius: 8px;
-    border: 1px solid var(--bg-outside);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 850px !important;
+    margin: 0 auto 40px auto !important;
+    background-color: #FFFFFF !important;
+    padding: 2rem !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
   }
 
-  /* 4. TYPOGRAPHY & ELEMENTS */
+  /* 4. FARGER PÅ OVERSIKTER OG LENKER */
   .main-content h1, .main-content h2, .main-content h3 {
-    color: var(--primary-teal) !important;
-    border-bottom: 2px solid var(--bg-outside);
-    padding-bottom: 6px;
+    color: #05AD98 !important;
+    border-bottom: 2px solid #BBBFBF !important;
   }
   .main-content a {
-    color: var(--primary-teal) !important;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .main-content a:hover {
-    text-decoration: underline;
+    color: #05AD98 !important;
   }
   
-  /* Sekundærtekst og detaljer bruker #878787 */
-  .subtitle, .project-meta {
-    color: var(--muted-gray);
+  /* Sekundærtekst */
+  .project-meta {
+    color: #878787 !important;
     font-size: 0.9em;
   }
-  hr {
-    border: 0;
-    height: 1px;
-    background: var(--muted-gray);
-    opacity: 0.4;
+
+  /* SKJULER STANDARD BUNNTEKST */
+  .site-footer {
+    display: none !important;
   }
 </style>
