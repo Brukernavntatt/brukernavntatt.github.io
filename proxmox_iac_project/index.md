@@ -13,9 +13,9 @@ Docker slik at jeg kan spinne opp containere direkte på samme maskin,
 Terraform så jeg kan lære å automatisere prosessen med å sette opp nye maskiner ved bruk av kode,
 samt Ansible for å pushe konfigurasjoner direkte fra samme maskin.
 
-## Om Prosjektet
+## Om prosjektet
 
 
+
+## Diagram av prosjektet
 [![Skjermbilde av Proxmox](./bilder/iac-project.drawio.svg)](./bilder/iac-project.drawio.svg)
-
-
