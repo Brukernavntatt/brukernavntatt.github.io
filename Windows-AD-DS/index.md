@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Proxmox VE & Windows Server 2025
-description: Dokumentasjon og oppsett av virtuelt domenemiljø
+title: Windows AD-DS & Opnsense
+description: placeholder
 ---
 
 [← Tilbake til forside](../)
