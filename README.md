@@ -17,5 +17,19 @@
   .main-content h1, .main-content h2, .main-content h3 { color: #f0f6fc !important; }
 </style>
 
-Testing
+<style>
+  /* Skjuler den automatiske GitHub Pages-bunnteksten */
+  .site-footer {
+    display: none !important;
+  }
 
+  /* Style for resten av siden */
+  body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+  .main-content {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+</style>
