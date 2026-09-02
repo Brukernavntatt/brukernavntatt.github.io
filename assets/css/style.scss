@@ -1,64 +1,8 @@
 ---
 ---
 
-@import "jekyll-theme-cayman";
+@import "{{ site.theme }}";
 
-/* 1. TOPP-BANNER (#2C444C) */
-.page-header {
-  background-color: #2C444C !important;
-  background-image: none !important;
-  color: #FFFFFF !important;
-}
-
-.page-header h1, 
-.project-name, 
-.project-tagline {
-  color: #FFFFFF !important;
-}
-
-/* 2. HOVEDBAKGRUNN (#262B40) */
 body {
-  background-color: #262B40 !important;
-  color: #E2E8F0 !important;
-}
-
-/* 3. HOVEDOMRÅDET */
-.main-content {
-  max-width: 850px !important;
-  margin: 0 auto 40px auto !important;
-  background-color: transparent !important;
-  padding: 2rem !important;
-  box-shadow: none !important;
-  border: none !important;
-  color: #E2E8F0 !important;
-}
-
-/* 4. OVERSKRIFTER OG LENKER */
-.main-content h1, 
-.main-content h2, 
-.main-content h3 {
-  color: #64D2FF !important;
-  border-bottom: 1px solid #3A4260 !important;
-  padding-bottom: 6px;
-}
-
-.main-content a {
-  color: #64D2FF !important;
-  font-weight: bold;
-}
-
-.main-content code, 
-.main-content pre {
-  background-color: #1E2233 !important;
-  border: 1px solid #3A4260 !important;
-  color: #64D2FF !important;
-}
-
-.project-meta {
-  color: #8E98B7 !important;
-  font-size: 0.9em;
-}
-
-.site-footer {
-  display: none !important;
+  background-color: red !important;
 }
