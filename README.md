@@ -15,10 +15,8 @@
   .main-content code { background-color: #161b22 !important; color: #79c0ff !important; }
   .main-content pre { background-color: #161b22 !important; border: 1px solid #30363d; }
   .main-content h1, .main-content h2, .main-content h3 { color: #f0f6fc !important; }
-</style>
 
-<style>
-  /* Skjuler den automatiske GitHub Pages-bunnteksten */
+    /* Skjuler den automatiske GitHub Pages-bunnteksten */
   .site-footer {
     display: none !important;
   }
@@ -33,3 +31,4 @@
     color: #c9d1d9 !important;
   }
 </style>
+
