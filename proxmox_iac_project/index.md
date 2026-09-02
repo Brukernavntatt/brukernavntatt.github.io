@@ -16,6 +16,6 @@ samt Ansible for å pushe konfigurasjoner direkte fra samme maskin.
 ## Om Prosjektet
 
 
-[![Skjermbilde av Proxmox](./bilder/IaC prosject.drawio.svg)](./bilder/IaC prosject.drawio.svg)
+[![Skjermbilde av Proxmox](./bilder/iac-project.drawio.svg)](./bilder/iac-project.drawio.svg)
 
 
