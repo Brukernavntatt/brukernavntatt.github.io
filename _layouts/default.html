@@ -8,69 +8,121 @@
   <title>{{ page.title | default: site.title }}</title>
   
   <style>
-    /* 1. TOPP-BANNER (#2C444C) */
+    /* 1. NORMALISED RESETS & SKRIFTTYPE */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #262B40 !important;
+      color: #E2E8F0 !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 1.125rem !important; 
+      line-height: 1.6 !important;
+    }
+
+    /* 2. TOPP-BANNER */
     .page-header {
       background-color: #2C444C !important;
       background-image: none !important;
       color: #FFFFFF !important;
-      padding: 2rem 1rem !important;
+      padding: 5rem 6rem !important; 
       text-align: center;
     }
     .page-header h1, .project-name {
       color: #FFFFFF !important;
-      margin: 0;
-      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 0.1rem;
+      font-size: 3.25rem !important; 
+      font-weight: 700;
+      line-height: 1.25;
     }
     .page-header h2, .project-tagline {
       color: #E2E8F0 !important;
       opacity: 0.8;
-      margin-top: 0.5rem;
+      margin-top: 0;
+      margin-bottom: 0;
       font-weight: normal;
-      font-size: 1rem;
+      font-size: 1.25rem !important; 
     }
 
-    /* 2. HOVEDBAKGRUNN (#262B40) */
-    body {
-      background-color: #262B40 !important;
-      color: #E2E8F0 !important;
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
-
-    /* 3. HOVEDOMRÅDET */
+    /* 3. HOVEDOMRÅDET  */
     .main-content {
-      max-width: 850px !important;
-      margin: 0 auto 40px auto !important;
+      max-width: 64rem !important; 
+      padding: 2rem 6rem !important; 
+      margin: 0 auto !important;
       background-color: transparent !important;
-      padding: 2rem !important;
-      box-shadow: none !important;
-      border: none !important;
-      color: #E2E8F0 !important;
+      word-wrap: break-word;
     }
 
-    /* 4. OVERSKRIFTER OG LENKER */
+    /* 4. OVERSKRIFTER OG ELEMENTER */
+    .main-content h1 { font-size: 2rem !important; }
+    .main-content h2 { font-size: 1.5rem !important; }
+    .main-content h3 { font-size: 1.25rem !important; }
+    
     .main-content h1, .main-content h2, .main-content h3 {
       color: #64D2FF !important;
       border-bottom: 1px solid #3A4260 !important;
-      padding-bottom: 6px;
+      padding-bottom: 0.3em;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
     }
+
+    .main-content p, .main-content li {
+      color: #E2E8F0 !important;
+      font-size: 1.125rem !important;
+    }
+
+    /* 5. LENKER OG KODEBLOKKER */
     .main-content a {
       color: #64D2FF !important;
       font-weight: bold;
+      text-decoration: none;
+    }
+    .main-content a:hover {
+      text-decoration: underline;
     }
     .main-content code, .main-content pre {
       background-color: #1E2233 !important;
       border: 1px solid #3A4260 !important;
       color: #64D2FF !important;
-      padding: 0.2em 0.4em;
-      border-radius: 3px;
+      border-radius: 4px;
     }
+    .main-content code {
+      padding: 0.2em 0.4em;
+      font-size: 0.9em;
+    }
+    .main-content pre {
+      padding: 0.8rem;
+      overflow-x: auto;
+    }
+    
     .project-meta {
       color: #8E98B7 !important;
-      font-size: 0.9em;
+      font-size: 0.95em;
+      display: inline-block;
+      margin-top: 4px;
     }
     .site-footer {
       display: none !important;
+    }
+
+  
+    @media screen and (max-width: 42rem) {
+      .page-header {
+        padding: 2rem 1rem !important;
+      }
+      .page-header h1, .project-name {
+        font-size: 2.25rem !important;
+      }
+      .page-header h2, .project-tagline {
+        font-size: 1rem !important;
+      }
+      .main-content {
+        padding: 2rem 1rem !important;
+      }
     }
   </style>
 </head>
