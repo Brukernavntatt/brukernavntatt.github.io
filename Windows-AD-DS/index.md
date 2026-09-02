@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Windows AD-DS & Opnsense
-description: placeholder
+description: Oppsett av Windows server/klient, Opnsense, etc. 
 ---
 
 [← Tilbake til forside](../)
 
-## Om Prosjektet
-Dette er dokumentasjonen for Proxmox VE- og Windows Server 2025-laben min.
+## Målet
+Jeg ville anskaffe meg mer kunnskap om Windows server,
+gruppepolicy, domene kontroll, samt DNS/DHCP via serveren.  
+Jeg ønsket også å holde det separat fra Omada systemet mitt så jeg har satt opp 2 Opnsense brannmurer i Proxmox,
+hvor jeg har satt opp Virtual IP (CARP), VLANs til både klienter og servere, brannmur regler, etc.
 
-### Konfigurasjon
-* **Hypervisor:** Proxmox VE
-* **Gjest-OS:** Windows Server 2025
+
+## Om Prosjektet
+
