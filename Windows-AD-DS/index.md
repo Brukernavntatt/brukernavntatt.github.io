@@ -7,11 +7,11 @@ description: Oppsett av Windows server/klient, Opnsense, etc.
 [← Tilbake til forside](../)
 
 ## Målet
-Jeg ville anskaffe meg mer kunnskap om Windows server,
-gruppepolicy, domene kontroll, samt DNS/DHCP via serveren.  
-Jeg ønsket også å holde det separat fra Omada systemet mitt så jeg har satt opp 2 Opnsense brannmurer i Proxmox,
-hvor jeg har satt opp Virtual IP (CARP), VLANs til både klienter og servere, brannmur regler, etc.
-
+* **På Opnsense:** Her setter jeg opp Virtual IP (CARP), VLANs, brannmur regler, Radius, etc.  
+* **På Win-server:** Her setter jeg opp AD-DS, DNS/DHCP, GPOs, OUs med brukere/grupper/klienter, etc. 
 
 ## Om Prosjektet
+Jeg ville tilegne meg mer kunnskap om Windows server og deres bruksområder, jeg ville også holde det separert fra Omada så jeg valgte å sette opp et par
+Opnsense brannmurer i Proxmox, disse er koblet til Omada, men bruker kun Proxmox interne vmbrs ut mot servere og klienter. Dette vil si at windows server og klient er 
+koblet til et eget interface i Proxmox med egne VLAN tags. 
 
