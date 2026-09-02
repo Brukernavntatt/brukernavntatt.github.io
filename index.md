@@ -10,3 +10,4 @@ description: Her finner du mine prosjekter!
 <span class="project-meta">Teknologier: Proxmox, Active Directory, DNS, DHCP</span>
 
 Bygging og konfigurering av et virtuelt domenemiljø.
+---
