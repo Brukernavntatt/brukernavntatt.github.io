@@ -64,9 +64,6 @@
   }
 </style>
 
-# Velkommen til min Github
-Her finner du mine prosjekter!
-
 ---
 
 ## Prosjekter
