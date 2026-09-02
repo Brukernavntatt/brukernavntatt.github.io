@@ -1,0 +1,89 @@
+---
+---
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  
+  <style>
+    /* 1. TOPP-BANNER (#2C444C) */
+    .page-header {
+      background-color: #2C444C !important;
+      background-image: none !important;
+      color: #FFFFFF !important;
+      padding: 2rem 1rem !important;
+      text-align: center;
+    }
+    .page-header h1, .project-name {
+      color: #FFFFFF !important;
+      margin: 0;
+      font-size: 2rem;
+    }
+    .page-header h2, .project-tagline {
+      color: #E2E8F0 !important;
+      opacity: 0.8;
+      margin-top: 0.5rem;
+      font-weight: normal;
+      font-size: 1rem;
+    }
+
+    /* 2. HOVEDBAKGRUNN (#262B40) */
+    body {
+      background-color: #262B40 !important;
+      color: #E2E8F0 !important;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* 3. HOVEDOMRÅDET */
+    .main-content {
+      max-width: 850px !important;
+      margin: 0 auto 40px auto !important;
+      background-color: transparent !important;
+      padding: 2rem !important;
+      box-shadow: none !important;
+      border: none !important;
+      color: #E2E8F0 !important;
+    }
+
+    /* 4. OVERSKRIFTER OG LENKER */
+    .main-content h1, .main-content h2, .main-content h3 {
+      color: #64D2FF !important;
+      border-bottom: 1px solid #3A4260 !important;
+      padding-bottom: 6px;
+    }
+    .main-content a {
+      color: #64D2FF !important;
+      font-weight: bold;
+    }
+    .main-content code, .main-content pre {
+      background-color: #1E2233 !important;
+      border: 1px solid #3A4260 !important;
+      color: #64D2FF !important;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+    }
+    .project-meta {
+      color: #8E98B7 !important;
+      font-size: 0.9em;
+    }
+    .site-footer {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+    {% if page.description or site.description %}
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+    {% endif %}
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+  </main>
+</body>
+</html>
