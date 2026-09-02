@@ -6,7 +6,7 @@ description: Her finner du mine prosjekter!
 
 ## Prosjekter
 
-### 🖥️ [Windows AD DS & Opnsense](./proxmox-lab/)
+### 🖥️ [Windows AD DS & Opnsense](./Windows-AD-DS/)
 <span class="project-meta">Teknologier: Active Directory, DNS, DHCP, Firewalls</span>
 
 Bygging og konfigurering av et virtuelt domenemiljø. 
