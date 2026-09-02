@@ -9,7 +9,6 @@ description: Oppsett av Infrastruktur som Kode
 ## Om Prosjektet
 placeholder
 
-![Skjermbilde fra Proxmox](./bilder/grafana-example.png)
-
+[![Skjermbilde av Proxmox](./bilder/grafana-example.png)](./bilder/grafana-example.png)
 
 
