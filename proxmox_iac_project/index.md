@@ -6,7 +6,7 @@ description: Oppsett av Infrastruktur som Kode
 
 [← Tilbake til forside](../)
 
-## Målet
+## Teknologier
 * **Terraform:** For å bygge infrastruktur på Proxmox ved hjelp av kode i stedet for å manuelt installere alt.
 * **Ansible:** For å konfigurere maskiner som ble laget via Terraform, installasjon av Grafana Alloy, Node-exporter, etc.
 * **Docker:** Her kjører jeg Grafana-stacken min som består av Prometheus, Loki, Grafana, Alloy, samt noen andre exportere.
