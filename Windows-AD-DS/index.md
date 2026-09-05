@@ -8,7 +8,7 @@ description: Oppsett av Windows server/klient, Opnsense, etc.
 
 ## Teknologier
 * **Opnsense:** Her setter jeg opp Virtual IP (CARP), VLANs, brannmur regler, Radius, etc.  
-* **Win-server:** Her setter jeg opp AD-DS, DNS/DHCP, GPOs, OUs med brukere/grupper/klienter, etc.
+* **Win-server:** Her setter jeg opp AD-DS, DNS/DHCP, GPOs, OUs med brukere/grupper/klienter (IAM), etc.
 * **Win-klient:** Testing av domene kobling, GPOs, brukere, DHCP relay, etc.
 
 ## Om Prosjektet
