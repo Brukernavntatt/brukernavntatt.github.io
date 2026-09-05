@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Proxmox & IaC
-description: Link til Kildekode [Kildekode](https://github.com/Brukernavntatt/Proxmox_IaC_Project)
+description: Windows-server oppsett med Opnsense brannmurer
 ---
 
 [← Tilbake til forside](../)
+
+## Link til Kildekode [Kildekode](https://github.com/Brukernavntatt/Proxmox_IaC_Project)
 
 ## Teknologier
 * **Terraform:** For å bygge infrastruktur på Proxmox ved hjelp av kode i stedet for å manuelt installere alt.
