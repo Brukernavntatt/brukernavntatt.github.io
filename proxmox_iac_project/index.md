@@ -22,4 +22,4 @@ samt Ansible for å pushe konfigurasjoner direkte fra samme maskin.
 
 
 ## Diagram av prosjektet
-[![Skjermbilde av Proxmox](./bilder/iac-project.drawio.svg)](./bilder/iac-project.drawio.svg)
+
