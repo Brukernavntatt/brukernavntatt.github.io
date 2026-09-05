@@ -7,7 +7,7 @@ description: Her finner du mine prosjekter!
 ## Prosjekter
 
 ### 🖥️ [Windows AD DS & Opnsense](./Windows-AD-DS/)
-<span class="project-meta">Teknologier: Active Directory, DNS, DHCP, Firewalls</span>
+<span class="project-meta">Teknologier: Active Directory, DNS, DHCP, Opnsense</span>
 
 Bygging og konfigurering av et virtuelt domenemiljø. 
 
