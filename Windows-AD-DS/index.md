@@ -15,3 +15,6 @@ Jeg ville tilegne meg mer kunnskap om Windows server og deres bruksområder, jeg
 Opnsense brannmurer i Proxmox, disse er koblet til Omada, men bruker kun Proxmox interne vmbrs ut mot servere og klienter. Dette vil si at windows server og klient er 
 koblet til et eget interface i Proxmox med egne VLAN tags. 
 
+## Diagram av prosjektet
+[![Nettverkstopologi](./bilder/opnsense-windows-domain.drawio.svg)](./bilder/opnsense-windows-domain.drawio.svg)
+
