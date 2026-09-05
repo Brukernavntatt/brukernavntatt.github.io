@@ -22,5 +22,5 @@ samt Ansible for å pushe konfigurasjoner direkte fra samme maskin.
 
 
 ## Diagram av prosjektet
-[![Diagram](./bilder/iac-project.drawio.svg)
+![Diagram](./bilder/iac-project.drawio.svg)
 
