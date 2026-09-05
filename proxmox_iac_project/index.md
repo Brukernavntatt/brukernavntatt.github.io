@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Proxmox & IaC
-description: Link til Kildekode: [Kildekode](https://github.com/Brukernavntatt/Proxmox_IaC_Project)
+description: Link til Kildekode [Kildekode](https://github.com/Brukernavntatt/Proxmox_IaC_Project)
 ---
 
 [← Tilbake til forside](../)
