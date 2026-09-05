@@ -17,5 +17,5 @@ Opnsense brannmurer i Proxmox, disse er koblet til Omada, men bruker kun Proxmox
 koblet til et eget interface i Proxmox med egne VLAN tags. 
 
 ## Diagram av prosjektet
-[![Nettverkstopologi](./bilder/opnsense-windows-domain.drawio.svg)](./bilder/opnsense-windows-domain.drawio.svg)
+![Nettverkstopologi](./bilder/opnsense-windows-domain.drawio.svg)
 
