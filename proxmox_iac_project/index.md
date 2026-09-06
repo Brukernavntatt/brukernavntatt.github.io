@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Proxmox & IaC
-description: Windows-server oppsett med Opnsense brannmurer
+description: Proxmox blir håndtert av Terraform & Ansible
 ---
 
 [← Tilbake til forside](../)
